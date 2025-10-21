@@ -1,0 +1,89 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Mypy
+.mypy_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Secrets and envs
+.env
+*.env
+*.pem
+*.key
+*.crt
+firebase_service_account.json
+
+# Databases
+*.sqlite3
+*.db
+
+# Misc
+*.bak
+*.swp
+
+# Node (if any tooling present)
+node_modules/
+npm-debug.log*
+
+# Local config
+.local
+
+# Coverage reports
+coverage.xml
+
+# Build artifacts
+__pypackages__/
+
+# Lock files
+poetry.lock
+Pipfile.lock
+
+# End of file
